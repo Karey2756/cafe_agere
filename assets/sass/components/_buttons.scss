@@ -1,0 +1,17 @@
+.btn--login {
+  background-color: transparent; 
+  border: 1px solid #000;
+  color: $color8;
+}
+
+.btn--register {
+    background-color: $color1;
+    color: white;
+    border: none;
+  }
+
+  .btn {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
