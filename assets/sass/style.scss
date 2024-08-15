@@ -1,7 +1,10 @@
+@charset "UTF-8";
 /* abstracts */
 /* base */
 body {
   font-family: "Roboto", sans-serif;
+ 
+           
 }
 
 h1, h2 {
@@ -45,19 +48,16 @@ p {
   position: relative;
   text-align: center;
 }
-
 .header__image {
   max-width: 100%;
   width: 70%;
   position: relative;
 }
-
 .header__image img {
   width: 100%;
   height: 400PX;
   object-fit: cover;
 }
-
 .header__content {
   width: 20PX;
   padding: 72px;
@@ -66,21 +66,18 @@ p {
   flex-direction: column;
   background-color: #fff;
 }
-
 .header__content .header__title {
   font-family: "PT Mono", monospace;
   font-size: 2.5rem;
   margin: 0;
   color: #333;
 }
-
 .header__content .header__subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   margin: 10px 0 0 0;
   color: #666;
 }
-
 .header__content::before, .header__content::after {
   display: none;
 }
@@ -92,7 +89,6 @@ p {
   color: #fff;
   margin-top: 30px;
 }
-
 .footer .footer__text {
   margin: 0;
   font-size: 1rem;
@@ -102,11 +98,10 @@ p {
 .header {
   position: relative;
 }
-
 .header .header__content {
   text-align: center;
+  
 }
-
 .header .header__content .stats-container {
   position: absolute;
   top: 257px;
@@ -119,42 +114,37 @@ p {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
+  
 }
-
 .header .header__content .stats-container .stats {
   display: flex;
   justify-content: space-around;
   width: 76%;
 }
-
 .header .header__content .stats-container .stats__item {
   text-align: center;
   background-color: #fff;
   border-radius: 8px;
   flex: 1;
   min-width: 100px;
+  
 }
-
 .header .header__content .stats-container .stats__item:first-child {
   margin-left: 0;
 }
-
 .header .header__content .stats-container .stats__item:last-child {
   margin-right: 0;
 }
-
 .header .header__content .stats-container .stats__item__number {
   font-size: xx-large;
   color: #e67e22;
   margin: 0;
 }
-
 .header .header__content .stats-container .stats__item__description {
   font-size: 50rem;
   color: #7f8c8d;
   margin: 10px 0 0 0;
 }
-
 .header .header__content .stats-container .stats .stats__highlight {
   background-color: #f3ef12;
   width: 143px;
@@ -166,7 +156,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 .header .header__content .stats-container .stats .stats__overlay-orange {
   position: absolute;
   background-color: #e66022;
@@ -178,13 +167,11 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 .header .header__content .stats-container .stats .stats__overlay-orange .fas {
   color: #fff;
   font-size: 3rem;
   font-weight: bold;
 }
-
 .header .header__content .stats-container .stats .stats__highlight-blue {
   position: absolute;
   background-color: #3498db;
@@ -193,6 +180,7 @@ p {
   top: 143px;
   left: -1px;
 }
+
 
 .touch-container {
   display: flex;
@@ -217,12 +205,12 @@ p {
   font-size: 1rem;
   line-height: 1.5;
   color: #555;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 400px;      
+  margin: 0 auto;        
 }
-
-.hello {
+.hello{
   text-align: left;
+  
 }
 
 .touch__map {
@@ -254,6 +242,7 @@ p {
   height: 100px;
   object-fit: cover;
   transform: rotate(90deg);
+ 
 }
 
 .touch__map--3 {
@@ -278,27 +267,25 @@ p {
   align-items: center;
   padding: 20px 0px;
 }
-
 .touch__title {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  
 }
-
 .touch__description {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .touch__map {
   width: 100%;
   max-width: 600px;
   margin-top: 20px;
 }
-
 .touch__map img {
   max-width: 100%;
   width: 75%;
   height: auto;
+
 }
 
 .dropdown {
@@ -306,44 +293,57 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  
 }
-
 .dropdown__content {
   display: flex;
   align-items: center;
   width: 100%;
+         
 }
-
 .dropdown__logo img {
-  float: left;
-  margin-right: 20px;
-  max-width: 50%;
+  float: left; margin-right: 20px; max-width: 50%;
 }
-
 .dropdown__nav {
   flex-grow: 1;
+ 
 }
-
 .dropdown__list {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+ 
 }
-
 .dropdown__item {
   margin-right: 1.5rem;
+  
 }
-
 .dropdown__link {
   text-decoration: none;
   color: #989797;
+  
+ 
 }
-
 .dropdown__auth {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-/*# sourceMappingURL=styles.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
